@@ -34,5 +34,5 @@ if __name__ == "__main__":
     flaskPort = 8786
     rf = randomforest()
     print('starting server...')
-    app.run(host = '0.0.0.0', port = flaskPort)
+    app.run(debug = True, host = '0.0.0.0', port = flaskPort)
     
