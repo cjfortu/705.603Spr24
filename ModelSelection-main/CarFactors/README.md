@@ -4,7 +4,10 @@ A random forest regressor trained to predict the days until the sale of a used c
 To run the model and services, you can simply run all cells in *carfactors.ipynb*, or build a docker image from *Dockerfile* and run the container.
 
 **docker instructions**
-1) 
+1) with */CarFactors* local and at the current directory, build the image locally:  
+*docker build -t "cjfortu/705.603spr24:assignment4_1"  .*  
+2) now run a container based on the image:  
+*docker run -it -p 8785:8785 -v /output:/output cjfortu/705.603spr24:assignment4_1*
 
 ## Microservice Info
 **Provides two microservices**
