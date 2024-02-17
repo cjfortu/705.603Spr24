@@ -7,7 +7,8 @@ To run the model and services, you can simply run all cells in *carfactors.ipynb
 1) with */CarFactors* local and at the current directory, build the image locally:  
 *docker build -t "cjfortu/705.603spr24:assignment4_1"  .*  
 2) now run a container based on the image:  
-*docker run -it -p 8785:8785 -v /output:/output cjfortu/705.603spr24:assignment4_1*
+*docker run -it -p 8785:8785 -v /output:/output cjfortu/705.603spr24:assignment4_1*  
+3) see the URL information below to access the microservices at port 8785  
 
 ## Microservice Info
 **Provides two microservices**
