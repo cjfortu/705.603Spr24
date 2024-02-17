@@ -1,11 +1,12 @@
 # carsfactors
-A random forest regressor trained to predict the days required to sell a used car after posting the ad.
+A random forest regressor trained to predict the days until the sale of a used car after posting the ad.
 
 To run the model and services, you can simply run all cells in *carfactors.ipynb*, or build a docker image from *Dockerfile* and run the container.
 
 **docker instructions**
 1) 
 
+## Microservice Info
 **Provides two microservices**
 1) returns performance stats - http://localhost:8786/stats
 2) returns inference determination given vehicle and advertisement attributes - http://localhost:8786/infer?manufacturer=Subaru&transmission=automatic&color=blue&odometer=12000&year=2020&engine_type=gasoline&engine_capacity=3.6&bodytype=suv&warranty=True&drivetrain=all&price=20000&numphotos=10
