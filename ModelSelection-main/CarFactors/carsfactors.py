@@ -104,9 +104,9 @@ class carsfactors:
         self.cols = list(dffeat.columns)  # keep the feature names for inference
         
         # set the random forest hyperparameters
-        max_features = 0.5
-        n_estimators = X.shape[1]
-        min_samples_leaf = 2
+        max_features = 0.5  # use %50 of the available features for each tree
+        n_estimators = X.shape[1]  # take the same number of estimators as there are features
+        min_samples_leaf = 2  # do not allow singleton leaves
         
         print('random forest hyperparameters:')
         print('max_features: {}'.format(max_features))

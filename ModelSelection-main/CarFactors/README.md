@@ -43,8 +43,8 @@ drivetrain options:
 ['all', 'front', 'rear']
 
 ## Model Performance
-The model has an R2 score of 0.616, which means %61.6 of the variance in the data is captured by the model.  This is considered good.  It is possible to achieve an R2 score as high as 0.85, but this results in an unacceptably overfitted model.
+The model has an R2 score of 0.616, which means %61.6 of the variance in the data is captured by the model.  This is considered good.  By adjusting the random forest hyperparameters it is possible to achieve an R2 score as high as 0.85, but this results in an unacceptably overfitted model.
 
-The model has an RMSE of 70.305 in training and 83.330 in testing.  These are both within the label standard deviation of 112.837.  Again we can achieve an RMSE as low as 42 in training, but this results in an unacceptably overfitted model.
+The model has an RMSE of 70.305 in training and 83.330 in testing.  These are both within the label standard deviation of 112.837.  Again by adjusting the random forest hyperparameters we can achieve an RMSE as low as 42 in training, but this results in an unacceptably overfitted model.
 
 Employing a fully connected neural network (FCN) could capture the nonlinear relationships between inputs and outputs.  This may require an architecture prohibitively large for CPU training (CPU training is necessarily the case using Sklearn).  If done in Tensorflow using a GPU, we could use 3 hidden layers with many neurons, and employ variance reduction in the form of dropout.
