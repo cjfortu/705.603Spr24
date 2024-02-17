@@ -43,6 +43,9 @@ True, False
 drivetrain options:  
 ['all', 'front', 'rear']
 
+## Feature Selection
+See *model_learn()* in *carsfactors.py* to see which features were selected and how, as well as feature processing.
+
 ## Model Performance
 The model has an R2 score of 0.616, which means %61.6 of the variance in the data is captured by the model.  This is considered good.  By adjusting the random forest hyperparameters it is possible to achieve an R2 score as high as 0.85, but this results in an unacceptably overfitted model.
 

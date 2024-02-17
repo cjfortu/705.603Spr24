@@ -75,7 +75,7 @@ class carsfactors:
         df['manumod_num'] = df['manumod'].map(manumod_switch)
         test_size = df['manumod_num'].value_counts().size
 
-        #Remove Unwanted Columns
+        # Remove Unwanted Columns
         df = df[['manumod_num', 'manufacturer_name', 'transmission', 'color', 'odometer_value',\
                  'year_produced', 'engine_type', 'engine_capacity', 'body_type',\
                  'has_warranty', 'drivetrain', 'price_usd', 'number_of_photos',\
