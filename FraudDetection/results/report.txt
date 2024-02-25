@@ -1,0 +1,16 @@
+Model Testing Results:
+
+note:
+sensitivity = recall of label 1
+specificity = recall of label 0
+_____________________________________________________
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    184275
+           1       0.95      0.87      0.91       965
+
+    accuracy                           1.00    185240
+   macro avg       0.98      0.93      0.95    185240
+weighted avg       1.00      1.00      1.00    185240
+
+ROC-AUC score: 0.9340856444137963
