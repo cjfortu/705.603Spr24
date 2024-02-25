@@ -30,7 +30,7 @@ class Fraud_Detector_Model:
         self.X_train, self.Y_train = datsets.get_noval_training_dataset()
         self.clf = XGBClassifier(tree_method='hist',\
                              device='cuda',\
-                             max_depth=8,\
+                             max_depth=9,\
                              objective='binary:logistic')
         print('XGBoost Classifier model ready for training')
         
