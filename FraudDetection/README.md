@@ -3,6 +3,8 @@ An XGBoost Classifier trained to predict whether a credit card transaction is fr
 
 To run the model and services, you can build a docker image from *Dockerfile* and run the container.  For a preview simply run all cells in *deploybook.ipynb*.
 
+Note that *transactions-1.csv* must be manually added to */data/* due to its excess size.  It is however available in the associated docker image.
+
 **docker instructions**
 1) with */FraudDetection* local and at the current directory, build the image locally:  
 *docker build -t "cjfortu/705.603spr24:assignment5_1"  .*  
