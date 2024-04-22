@@ -1,0 +1,11 @@
+flask
+ffmpeg-python
+xmltodict
+pytesseract
+opencv-python
+matplotlib
+imutils
+scikit-image
+scikit-learn
+pandas
+numpy

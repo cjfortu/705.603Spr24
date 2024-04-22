@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Yolo bbox testing results:</h2>
+{% block body %}
+<p>mean IOU: {{miou}}</p>
+<p>images with extraneous boxes: {{novboxes}}</p>
+<p>images lacking boxes: {{nodet}}</p>
+    <h2>Tesseract-OCR testing results:</h2>
+<p>LCS mean, all plates: {{smmets}}</p>
+<p>LCS mean, only if chars detected: {{smnbnetmets}}</p>
+<p>proportion perfect LCS, all plates: {{smperfrat}}</p>
+<p>proportion perfect LCS, only if chars detected: {{smnbperfrat}}</p>
+{% endblock %}
+</body>
+</html>

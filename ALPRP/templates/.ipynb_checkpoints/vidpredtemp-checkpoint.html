@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Video plate detection results:</h2>
+{% block body %}
+<p>total plates detected: {{platecnt}}</p>
+<p>plates with text detected: {{detplatecnt}}</p>
+<p>frame rate reduced to 2fps</p>
+<p>frames scliced to top:880 bottom:2160 left:640 right:3200</p>
+<p>see /results/ folder for all bboxes and plate strings</p>
+{% endblock %}
+</body>
+</html>

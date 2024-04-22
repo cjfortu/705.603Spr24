@@ -1,0 +1,2 @@
+Yolo bbox testing results:mean IOU: 0.5844170157371271images with extraneous boxes: 18images lacking boxes: 25
+Tesseract-OCR testing results:LCS mean, all plates: 0.531927748543105LCS mean, only if chars detected: 0.848820875334742proportion perfect LCS, all plates: 0.2311111111111111proportion perfect LCS, only if chars detected: 0.36879432624113473
