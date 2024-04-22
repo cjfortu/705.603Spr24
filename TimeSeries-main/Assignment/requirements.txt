@@ -1,0 +1,8 @@
+flask
+statsmodels
+holidays
+pmdarima
+pandas
+numpy
+scikit-learn
+tensorflow
