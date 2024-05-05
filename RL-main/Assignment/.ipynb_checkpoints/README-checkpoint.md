@@ -22,6 +22,7 @@ Note, *dffl.bin* is excluded due to its file size.  The *model_analysis.ipynb* r
 **Details on predictions**  
 **Format for CSV:** Gender,Age,CustomerType,Email,Tenure,Date  
 **example:** M,35,C,ajf3490j@msn.com,2,2024-05-06  
+see **/sample_customers/sendcust.csv**  
 We recommend *postman* for the POST request.
 
 ## Feature Selection & Processing
