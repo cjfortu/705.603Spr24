@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Customer and Proposed Date:</h2>
+{% block body %}
+<p>gender: {{gender}}</p>
+<p>age: {{age}}</p>
+<p>custtype: {{custtype}}</p>
+<p>email domain: {{email}}</p>
+<p>tenure: {{tenure}}</p>
+<p>date: {{date}}</p>
+    <h2>Recommended Action and Result:</h2>
+<p>action (0=no_send or 1,2,3=email_subject): {{action}}</p>
+<p>conversion: {{conversion}}</p>
+{% endblock %}
+</body>
+</html>
